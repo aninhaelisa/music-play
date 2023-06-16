@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  href="https://i.pinimg.com/564x/ce/6c/ea/ce6cea8f94097c570d82ba8877825bba.jpg">
+</head>
+<body>
+
+    <div class="section">
+        <div class="section__background">
+            <img id="backgroundImage" class="section__background-image" src="https://yildirimzlm.s3.us-east-2.amazonaws.com/post-malone-2.jpeg" alt="">
+        </div>
+        <div class="music-card__wrapper">
+            <div class="music-card">
+                <div class="music-card__content">
+                    <img class="music-image" src="https://i.pinimg.com/564x/9c/12/1e/9c121e0a58e96cd998ff74f1452467d8.jpg" alt="">
+                    <div class="music-info">
+                        <h2 class="music-name">Sign of the Times</h2>
+                        <p class="music-artist">Harry Styles</p>
+                    </div>
+                    <audio src="AUDIOS/y2meta.com - Harry Styles - Sign of the Times (Official Video) (128 kbps).mp3"></audio>
+                    <div class="music-progress">
+                        <div id="progress-bar" class="music-progress-bar"></div>
+                        <div class="music-progress__time">
+                            <span class="music-progress__time-item music-current-time">00:00</span>
+                            <span class="music-progress__time-item music-duration-time">00:00</span>
+                        </div>
+                    </div>
+                    <div class="music-controls">
+                        <div id="prev" class="music-controls-item">
+                            <i class="fas fa-backward music-controls-item--icon"></i>
+                            <img src="https://cdn-icons-png.flaticon.com/512/254/254428.png" alt="" style="max-width: 30px; transform: rotate(180deg);">
+                        </div>
+
+                        <div id="play" class="music-controls-item">
+                            <i class="fas fa-play music-controls-item--icon play-icon"></i>
+                            <img src="https://cdn-icons-png.flaticon.com/512/6839/6839922.png" alt="" style="max-width: 30px;">
+                            <div class="play-icon-background"></div>
+                        </div>
+
+                        <div id="next" class="music-controls-item">
+                            <i class="fas fa-forward music-controls-item--icon"></i>
+                            <img src="https://cdn-icons-png.flaticon.com/512/254/254428.png" alt="" style="max-width: 30px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
