@@ -64,7 +64,7 @@ const next = document.querySelector('#next');
             artist: 'Abbey Grove',
             cover: 'https://i.pinimg.com/564x/33/ce/45/33ce455cfa3ff0d1921cfe3f0f17052f.jpg',
             musicName: ' Please Dont Go ',
-            musicPath: `AUDIOS/y2meta.com - Please Dont Go - Original Song (128 kbps).mp3`
+            musicPath: `AUDIOS/y2meta.com - Please Don’t Go - Original Song (128 kbps.mp3`
         }
     ]
 
